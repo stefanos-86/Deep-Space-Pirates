@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2011-11-11T04:42:40.107-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Get rid of MockGeometry, rename the vector3d files to mirror the real content.\nPlus, tidy up said content.",
+    "LastUpdatedDate": "2013-05-13T11:25:21.443-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "deepspacepirates",
+    "ReportedDate": "2011-11-03T12:02:31.58-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "vector3d -> dsMath + pulire",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 253
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "MockGeometry was not used anywere. Easy removal.\nVector3d is renamed to dsMath. Nothing to clean up.",
+      "PostedDate": "2011-11-11T04:41:29.687-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-11T04:42:40.107-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-01T18:59:03.65-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-13T11:25:21.443-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-02-19T03:20:40.647-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "MEGLIO LASCIARE COSI'\n \nThe start and stop of actions should be managed by two separate methods rather than a parametric one.\nWill give a better interface.",
+    "LastUpdatedDate": "2013-05-13T11:25:21.617-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "deepspacepirates",
+    "ReportedDate": "2011-11-03T12:00:36.097-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "eliminare il parametro start/stop",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 252
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Most of the actions implemented so far require to do a lot of similar things to start and stop. To avoid code duplication the internal implementation should remain as is, but should be called by the start/stop different routines. Lots of trouble for an \"estetic\" interface change? The current interface already \"suggests\" to factor things.",
+      "PostedDate": "2011-11-11T05:12:08.03-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-02-19T03:20:40.647-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-01T18:59:03.81-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-13T11:25:21.617-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

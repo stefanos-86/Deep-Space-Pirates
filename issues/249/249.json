@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2011-11-05T06:37:20.93-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The unit testing has not proved as useful as expected. Plus, is using a \"home-brew\" framework.\nShould be eliminated.",
+    "LastUpdatedDate": "2017-12-09T01:04:05.147-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "deepspacepirates",
+    "ReportedDate": "2011-11-03T11:49:07.18-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Buttare unit testing",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 249
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "To work on the item a new build had to be done. The project settings were changed. The debug working directory was wrong.\nRelease version built, but not tested: in order to launch it we must reconfigure it so that it finds the config files, as with the debug version.",
+      "PostedDate": "2011-11-05T06:36:49.913-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Resolved with changeset 4520.",
+      "PostedDate": "2011-11-05T06:37:20.93-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-01T18:59:04.38-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-13T11:25:22.15-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-12-09T01:04:05.147-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

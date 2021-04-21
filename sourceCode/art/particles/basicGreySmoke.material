@@ -1,0 +1,18 @@
+material basicGreySmoke
+ {
+   technique
+   {
+		pass
+		{
+			scene_blend alpha_blend
+			depth_write off
+		 
+			texture_unit
+			{
+				texture basicGreySmoke.png
+				tex_coord_set 0
+				colour_op modulate
+			}
+		}
+	}
+ }

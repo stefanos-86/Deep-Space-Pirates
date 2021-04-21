@@ -1,0 +1,29 @@
+particle_system basicGreySmoke
+{
+	material 			basicGreySmoke
+	billboard_type  	point
+	particle_width  	0.1
+	particle_height 	0.1
+	quota 1
+	 
+	emitter Point
+	{
+	   angle			60
+	   duration	   		0.5	// This controls the duration of the emitter in seconds
+	   emission_rate   	1	// This controls how many particles are emitted per second
+	   time_to_live    	0.5	// Each particle lives this many seconds
+	   velocity_min 	0
+	   velocity_max 	0
+	}
+	
+	affector ColourFader
+	{
+		alpha -100
+	}
+  
+	affector Scaler
+	{
+		rate 1.5
+	}
+
+}

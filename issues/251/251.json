@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-02-19T03:16:33.683-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "NON SERVE -> IN FUTURO POSSONO NON ESSERCI OGGETTI MESH\n \nPlease add here the details about this task.\nIt is sad to say, but I do not remember what is about.",
+    "LastUpdatedDate": "2017-12-09T00:59:11.26-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "deepspacepirates",
+    "ReportedDate": "2011-11-03T11:59:34.31-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "gocVisual->mesh (cambio nome)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 251
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

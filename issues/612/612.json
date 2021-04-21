@@ -1,0 +1,95 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-06-02T03:46:51.437-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Create a camera management system to switch cameras.",
+    "LastUpdatedDate": "2017-12-09T01:04:05.55-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "deepspacepirates",
+    "ReportedDate": "2012-05-08T04:05:50.163-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "The Cameraman",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 612
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Resolved with changeset 16032.",
+      "PostedDate": "2012-05-08T04:06:40.57-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-05-08T04:09:39.443-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 16034.",
+      "PostedDate": "2012-05-08T04:32:15.587-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 16035.",
+      "PostedDate": "2012-05-08T05:10:09.527-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 16039.",
+      "PostedDate": "2012-05-08T07:23:57.333-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 16045.",
+      "PostedDate": "2012-05-08T08:29:29.727-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 16850.",
+      "PostedDate": "2012-06-02T03:03:57.637-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Resolved with changeset 16851.",
+      "PostedDate": "2012-06-02T03:46:51.437-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-01T18:59:02.097-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-13T11:25:20.26-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-12-09T01:04:05.55-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

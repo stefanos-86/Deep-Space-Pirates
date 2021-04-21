@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-01-15T07:01:19.193-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The loop is no more in the ogre facade.\nDid NOT change the temporary clock or the simulation interface: better wait for havok than evolve temporary code!\n \nWe control the game loop, and OGRE should render when we require so.\nUse the  sim element interface to mark objects that need to react to the simulation clock.",
+    "LastUpdatedDate": "2017-12-09T01:04:05.407-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "deepspacepirates",
+    "ReportedDate": "2011-11-03T12:07:31.497-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Game loop fuori da ogre",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 256
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

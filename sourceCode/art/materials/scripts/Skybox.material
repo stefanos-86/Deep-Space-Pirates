@@ -1,0 +1,17 @@
+material Skybox
+{
+   technique
+   {
+      pass
+      {
+         lighting off
+         depth_write off
+
+         texture_unit
+         {
+            cubic_texture simpleSkybox.png simpleSkybox.png simpleSkybox.png simpleSkybox.png simpleSkybox.png simpleSkybox.png separateUV
+            tex_address_mode clamp
+         }
+      }
+   }
+}

@@ -1,0 +1,90 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-01-08T02:57:02-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We have to create the repository.\n \nAnd we did it!",
+    "LastUpdatedDate": "2017-12-09T00:59:11.05-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "deepspacepirates",
+    "ReportedDate": "2011-09-02T06:48:14.863-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Current Source Code Check-in",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 0,
+    "Id": 4
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Associated with changeset 506.",
+      "PostedDate": "2011-09-07T13:57:11.5-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 507.",
+      "PostedDate": "2011-09-07T14:11:42.87-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 510.",
+      "PostedDate": "2011-09-07T14:22:18.377-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-10-30T02:34:20.017-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 5921.",
+      "PostedDate": "2011-11-21T14:01:21.033-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-01-08T02:56:50.407-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-01-08T02:57:02-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-01T18:59:04.55-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-13T11:25:22.327-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-12-09T00:59:11.05-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

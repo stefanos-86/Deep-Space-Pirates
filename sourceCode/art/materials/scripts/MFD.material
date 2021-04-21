@@ -1,0 +1,411 @@
+material MFD
+ {
+     technique
+     {
+         pass
+         {
+             lighting off
+ 
+             ambient 1 1 1 1
+             diffuse 1 1 1 1
+             specular 0 0 0 0
+             emissive 0 0 0
+ 
+             alpha_rejection greater 128 // by increase this number, we will get more transparent objects
+             depth_write on
+ 
+             texture_unit
+             {
+                 texture mfd.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+         }
+     }
+ }
+ 
+ material Master_Alarm_Off
+ {
+     technique
+     {
+         pass
+         {
+             lighting off
+ 
+             ambient 1 1 1 1
+             diffuse 1 1 1 1
+             specular 0 0 0 0
+             emissive 0 0 0
+ 
+             texture_unit
+             {
+                 texture MasterAlarmOff.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+         }
+     }
+ }
+ 
+  material Master_Alarm_On
+ {
+     technique
+     {
+         pass
+         {
+             lighting off
+ 
+             ambient 1 1 1 1
+             diffuse 1 1 1 1
+             specular 0 0 0 0
+             emissive 0.2 0 0
+ 
+             texture_unit
+             {
+                 texture MasterAlarmOn.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+         }
+     }
+ }
+ 
+   material Master_Alarm_Alternative
+ {
+     technique
+     {
+         pass
+         {
+             lighting off
+ 
+             ambient 1 1 1 1
+             diffuse 1 1 1 1
+             specular 0 0 0 0
+             emissive 0.2 0 0
+ 
+             texture_unit
+             {
+                 texture MasterAlarmAlternative.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+         }
+     }
+ }
+ 
+ material Radar
+ {
+     technique
+     {
+         pass
+         {
+             lighting off
+ 
+             ambient 1 1 1 1
+             diffuse 1 1 1 1
+             specular 0 0 0 0
+             emissive 0 0 0
+ 
+             texture_unit
+             {
+                 texture radar.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+         }
+     }
+ }
+ 
+  material RadarDot
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0.055 0.8823 0.0353
+        }
+      } 
+    }
+  }
+  
+ material Sight
+ {
+   technique
+   {
+     pass
+     {
+	 scene_blend alpha_blend
+             depth_write off
+			 
+       texture_unit
+             {
+                 texture AimingCross.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+     }
+   }
+ }
+ 
+ material RotationReticle
+ {
+   technique
+   {
+     pass
+     {
+	 scene_blend alpha_blend
+             depth_write off
+			 
+       texture_unit
+             {
+                 texture RotationHUD.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+     }
+   }
+ }
+ 
+material MousePointer
+ {
+   technique
+   {
+     pass
+     {
+	 scene_blend alpha_blend
+             depth_write off
+			 
+       texture_unit
+             {
+                 texture mouseCursor.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+     }
+   }
+ }
+ 
+ 
+material temporaryCreditScreen //TO BE REMOVED once the GUI is ready.
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture credits.png
+				tex_coord_set 0
+				colour_op modulate
+			}
+		} 
+	}
+}
+ material MFD
+ {
+     technique
+     {
+         pass
+         {
+             lighting off
+ 
+             ambient 1 1 1 1
+             diffuse 1 1 1 1
+             specular 0 0 0 0
+             emissive 0 0 0
+ 
+             alpha_rejection greater 128 // by increase this number, we will get more transparent objects
+             depth_write on
+ 
+             texture_unit
+             {
+                 texture mfd.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+         }
+     }
+ }
+ 
+ material Master_Alarm_Off
+ {
+     technique
+     {
+         pass
+         {
+             lighting off
+ 
+             ambient 1 1 1 1
+             diffuse 1 1 1 1
+             specular 0 0 0 0
+             emissive 0 0 0
+ 
+             texture_unit
+             {
+                 texture MasterAlarmOff.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+         }
+     }
+ }
+ 
+  material Master_Alarm_On
+ {
+     technique
+     {
+         pass
+         {
+             lighting off
+ 
+             ambient 1 1 1 1
+             diffuse 1 1 1 1
+             specular 0 0 0 0
+             emissive 0.2 0 0
+ 
+             texture_unit
+             {
+                 texture MasterAlarmOn.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+         }
+     }
+ }
+ 
+   material Master_Alarm_Alternative
+ {
+     technique
+     {
+         pass
+         {
+             lighting off
+ 
+             ambient 1 1 1 1
+             diffuse 1 1 1 1
+             specular 0 0 0 0
+             emissive 0.2 0 0
+ 
+             texture_unit
+             {
+                 texture MasterAlarmAlternative.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+         }
+     }
+ }
+ 
+ material Radar
+ {
+     technique
+     {
+         pass
+         {
+             lighting off
+ 
+             ambient 1 1 1 1
+             diffuse 1 1 1 1
+             specular 0 0 0 0
+             emissive 0 0 0
+ 
+             texture_unit
+             {
+                 texture radar.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+         }
+     }
+ }
+ 
+  material RadarDot
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0.055 0.8823 0.0353
+        }
+      } 
+    }
+  }
+  
+ material Sight
+ {
+   technique
+   {
+     pass
+     {
+	 scene_blend alpha_blend
+             depth_write off
+			 
+       texture_unit
+             {
+                 texture AimingCross.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+     }
+   }
+ }
+ 
+ material RotationReticle
+ {
+   technique
+   {
+     pass
+     {
+	 scene_blend alpha_blend
+             depth_write off
+			 
+       texture_unit
+             {
+                 texture RotationHUD.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+     }
+   }
+ }
+ 
+material MousePointer
+ {
+   technique
+   {
+     pass
+     {
+	 scene_blend alpha_blend
+             depth_write off
+			 
+       texture_unit
+             {
+                 texture mouseCursor.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+     }
+   }
+ }
+ 
+ 
+material temporaryCreditScreen //TO BE REMOVED once the GUI is ready.
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture credits.png
+				tex_coord_set 0
+				colour_op modulate
+			}
+		} 
+	}
+}
+ 

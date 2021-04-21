@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2011-11-08T11:56:36.16-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Because Meyers said it!",
+    "LastUpdatedDate": "2013-05-13T11:25:21.257-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "deepspacepirates",
+    "ReportedDate": "2011-11-03T12:04:46.443-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "-init list nei costruttori",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 254
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Done: all the this->member=something are now replaced by init lists.",
+      "PostedDate": "2011-11-08T11:56:36.16-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-01T18:59:03.457-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-13T11:25:21.257-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

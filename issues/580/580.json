@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "To reproduce launch the game, wait until the \"WARNING: Axes.mesh is an older form...\" on the console, press ESC.\nIt consistently breaks here: \n \nbool InputMapper::frameRenderingQueued(const Ogre::FrameEvent& evt ){\nthis->oisMouse->capture();\nthis->oisKeyboard->capture();  <<<On this line\nreturn true;\n}\n \nCould not understand why.",
+    "LastUpdatedDate": "2017-12-09T00:59:11.393-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "deepspacepirates",
+    "ReportedDate": "2012-02-21T13:31:32.093-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "BUG: Crash on Escape button pressed before spaceship appereance",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 580
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": " Copied from work item 3\n02/09/2011 15:39:28Created by ilPropheta_cp02/09/2011 15:40:00Edited (Proposed to Closed) by ilPropheta_cpResolved with changeset 30.08/01/2012 12:04:48Edited by ilPropheta_cpAssociated with changeset 9342.",
+      "PostedDate": "2012-02-21T13:31:32.093-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-02-21T13:31:56.683-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-03-21T12:54:48.5-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-03-21T12:57:20.01-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-01T18:59:02.63-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-12-09T00:59:11.393-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

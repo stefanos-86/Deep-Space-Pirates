@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2CFA3F2A-20B3-42A0-A114-BA99F6CE148D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>dsPirates</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;HK_CONFIG_SIMD=2;_DEBUG;_WINDOWS;HK_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(FMOD_HOME)\inc;$(OGRE_HOME)\boost_1_42\boost;$(OGRE_HOME)\boost_1_42;$(OGRE_HOME)\include\OGRE;$(OGRE_HOME)\include\OIS;$(HAVOK_HOME)\Source;..\3rdpartylibs\glog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessKeepComments>false</PreprocessKeepComments>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(FMOD_HOME)\lib;$(OGRE_HOME)\boost_1_42\lib;$(OGRE_HOME)\lib\$(Configuration);$(HAVOK_HOME)\Lib\win32_net_9-0\debug_multithreaded_dll;%(AdditionalLibraryDirectories);..\3rdpartylibs\glog\lib\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;fmodex_vc.lib;%(AdditionalDependencies);hkBase.lib
+;hkSerialize.lib;
+hkSceneData.lib;
+hkInternal.lib;
+hkGeometryUtilities.lib;
+hkVisualize.lib;
+hkCompat.lib
+;hkpCollide.lib;
+hkpConstraintSolver.lib;
+hkpDynamics.lib;
+hkpInternal.lib;
+hkpUtilities.lib;
+hkpVehicle.lib;libglog.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y ..\3rdpartylibs\glog\lib\$(Configuration)\libglog.dll $(OGRE_HOME)\Bin\$(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;HK_CONFIG_SIMD=2;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(FMOD_HOME)\inc;$(OGRE_HOME)\boost_1_42\boost;$(OGRE_HOME)\boost_1_42;$(OGRE_HOME)\include\OGRE;$(OGRE_HOME)\include\OIS;$(HAVOK_HOME)\Source;..\3rdpartylibs\glog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(FMOD_HOME)\lib;$(OGRE_HOME)\boost_1_42\lib;$(OGRE_HOME)\lib\$(Configuration);$(HAVOK_HOME)\Lib\win32_net_9-0\release_multithreaded_dll;%(AdditionalLibraryDirectories);..\3rdpartylibs\glog\lib\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;fmodex_vc.lib;%(AdditionalDependencies);hkBase.lib
+;hkSerialize.lib;
+hkSceneData.lib;
+hkInternal.lib;
+hkGeometryUtilities.lib;
+hkVisualize.lib;
+hkCompat.lib
+;hkpCollide.lib;
+hkpConstraintSolver.lib;
+hkpDynamics.lib;
+hkpInternal.lib;
+hkpUtilities.lib;
+hkpVehicle.lib;libglog.lib</AdditionalDependencies>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <NoEntryPoint>false</NoEntryPoint>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y ..\3rdpartylibs\glog\lib\$(Configuration)\libglog.dll $(OGRE_HOME)\Bin\$(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ActionProviderPlugin.cpp" />
+    <ClCompile Include="BasicCollisionGeometry.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletCreator.cpp" />
+    <ClCompile Include="BulletPostCollisionremover.cpp" />
+    <ClCompile Include="CockpitScreenElements.cpp" />
+    <ClCompile Include="CreatorsUtilities.cpp" />
+    <ClCompile Include="DebrisPostCollisionRemover.cpp" />
+    <ClCompile Include="EffectsLibrary.cpp" />
+    <ClCompile Include="FixedRadarTarget.cpp" />
+    <ClCompile Include="Cameraman.cpp" />
+    <ClCompile Include="Cockpit.cpp" />
+    <ClCompile Include="ConfigurationStore.cpp" />
+    <ClCompile Include="ConsoleOutput.cpp" />
+    <ClCompile Include="CustomCollisionGeometry.cpp" />
+    <ClCompile Include="dsSound.cpp" />
+    <ClCompile Include="FlightControlSystem.cpp" />
+    <ClCompile Include="FMODfacade.cpp" />
+    <ClCompile Include="GameLoop.cpp" />
+    <ClCompile Include="GameObjectComponent.cpp" />
+    <ClCompile Include="gocCollidableLogic.cpp" />
+    <ClCompile Include="gocLogicBase.cpp" />
+    <ClCompile Include="gocPhysicsRigidBody.cpp" />
+    <ClCompile Include="gocVisualCamera.cpp" />
+    <ClCompile Include="gocVisualModel.cpp" />
+    <ClCompile Include="goFactory.cpp" />
+    <ClCompile Include="goManager.cpp" />
+    <ClCompile Include="HavokFacade.cpp" />
+    <ClCompile Include="IDGenerator.cpp" />
+    <ClCompile Include="InputMapper.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="NoOpCommand.cpp" />
+    <ClCompile Include="OgreFacade.cpp" />
+    <ClCompile Include="PostCollisionDismantler.cpp" />
+    <ClCompile Include="Radar.cpp" />
+    <ClCompile Include="SanityCheck.cpp" />
+    <ClCompile Include="SensorBus.cpp" />
+    <ClCompile Include="ShipSound.cpp" />
+    <ClCompile Include="SpaceDebrisCreator.cpp" />
+    <ClCompile Include="SpaceDebrisLogic.cpp" />
+    <ClCompile Include="SpaceShip.cpp" />
+    <ClCompile Include="SpaceShipControls.cpp" />
+    <ClCompile Include="SpaceshipCreator.cpp" />
+    <ClCompile Include="SpaceShipThrusters.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="SystemCommands.cpp" />
+    <ClCompile Include="SystemClock.cpp">
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ShowIncludes>
+    </ClCompile>
+    <ClCompile Include="dsMath.cpp" />
+    <ClCompile Include="VisualDebuggerConnector.cpp" />
+    <ClCompile Include="WeaponSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionName.h" />
+    <ClInclude Include="ActionProviderPlugin.h" />
+    <ClInclude Include="BasicCollisionGeometry.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletCreator.h" />
+    <ClInclude Include="BulletPostCollisionremover.h" />
+    <ClInclude Include="CockpitScreenElements.h" />
+    <ClInclude Include="CreatorsUtilities.h" />
+    <ClInclude Include="DebrisPostCollisionRemover.h" />
+    <ClInclude Include="EffectsLibrary.h" />
+    <ClInclude Include="FixedRadarTarget.h" />
+    <ClInclude Include="Cameraman.h" />
+    <ClInclude Include="Cockpit.h" />
+    <ClInclude Include="ConfigurationStore.h" />
+    <ClInclude Include="ConsoleOutput.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="CustomCollisionGeometry.h" />
+    <ClInclude Include="dsSound.h" />
+    <ClInclude Include="EasySingleton.h" />
+    <ClInclude Include="FlightControlSystem.h" />
+    <ClInclude Include="FMODfacade.h" />
+    <ClInclude Include="ForceGenerator.h" />
+    <ClInclude Include="GameItemRemover.h" />
+    <ClInclude Include="GameLoop.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectComponent.h" />
+    <ClInclude Include="glog_include.h" />
+    <ClInclude Include="gocAudio.h" />
+    <ClInclude Include="gocCollidableLogic.h" />
+    <ClInclude Include="gocLogic.h" />
+    <ClInclude Include="gocLogicBase.h" />
+    <ClInclude Include="gocPhysics.h" />
+    <ClInclude Include="gocPhysicsRigidBody.h" />
+    <ClInclude Include="gocVisual.h" />
+    <ClInclude Include="gocVisualCamera.h" />
+    <ClInclude Include="gocVisualModel.h" />
+    <ClInclude Include="goFactory.h" />
+    <ClInclude Include="goManager.h" />
+    <ClInclude Include="HavokFacade.h" />
+    <ClInclude Include="ICollisionGeometry.h" />
+    <ClInclude Include="IDGenerator.h" />
+    <ClInclude Include="InputMapper.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="NoOpCommand.h" />
+    <ClInclude Include="OgreFacade.h" />
+    <ClInclude Include="PostCollisionDismantler.h" />
+    <ClInclude Include="Radar.h" />
+    <ClInclude Include="RadarVisibleInterface.h" />
+    <ClInclude Include="SanityCheck.h" />
+    <ClInclude Include="SensorBus.h" />
+    <ClInclude Include="ShipSound.h" />
+    <ClInclude Include="SpaceDebrisCreator.h" />
+    <ClInclude Include="SpaceDebrisLogic.h" />
+    <ClInclude Include="SpaceshipCreator.h" />
+    <ClInclude Include="SpaceShipStatus.h" />
+    <ClInclude Include="TimedElement.h" />
+    <ClInclude Include="SpaceShip.h" />
+    <ClInclude Include="SpaceShipControls.h" />
+    <ClInclude Include="SpaceShipThrusters.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SystemCommands.h" />
+    <ClInclude Include="SystemClock.h" />
+    <ClInclude Include="TorqueGenerator.h" />
+    <ClInclude Include="dsMath.h" />
+    <ClInclude Include="VisualDebuggerConnector.h" />
+    <ClInclude Include="WeaponSystem.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2011-09-02T06:40:00.89-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Create your first work-item and commit an example sourcecode file!",
+    "LastUpdatedDate": "2017-12-09T00:59:09.833-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "deepspacepirates",
+    "ReportedDate": "2011-09-02T06:39:28.083-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Your First Work-Item",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 3
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Resolved with changeset 30.",
+      "PostedDate": "2011-09-02T06:40:00.89-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Associated with changeset 9342.",
+      "PostedDate": "2012-01-08T03:04:48.257-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-01T18:59:04.72-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-13T11:25:22.587-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-12-09T00:59:09.833-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

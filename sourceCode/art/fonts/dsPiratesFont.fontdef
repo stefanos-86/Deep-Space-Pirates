@@ -1,0 +1,22 @@
+HUD_MFD_Font
+{
+	type 		truetype
+	source 		Segment14.otf
+	size 		18
+	resolution 	96
+}
+
+
+StarWars
+{
+	// Now this one I agree with ;)
+	// A Star Wars font :)
+	type 		truetype
+	source 		solo5.ttf
+	size 		16
+	resolution 	96
+}
+
+
+
+

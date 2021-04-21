@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2011-11-19T06:00:20.807-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "All the hardcoded values should be saved on (one or more?) configuration files.\nConsider Boost (http://www.boost.org/doc/libs/1_47_0/doc/html/program_options.html), or just do some basic file I/O.",
+    "LastUpdatedDate": "2017-12-09T01:04:05.283-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "deepspacepirates",
+    "ReportedDate": "2011-11-03T11:52:59.317-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Config. su file",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 0,
+    "Id": 250
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

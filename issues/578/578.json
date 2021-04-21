@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-04-08T07:47:29.81-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "- HavokFacade che consenta l'interazione con Havok\n- i componenti fisici devono tornare forze/coppie di Havok",
+    "LastUpdatedDate": "2013-05-13T11:25:20.727-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "deepspacepirates",
+    "ReportedDate": "2012-02-19T03:24:58.97-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Havok should be integrated in current physics components",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 0,
+    "Id": 578
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Associated with changeset 11528.",
+      "PostedDate": "2012-02-21T14:05:02.307-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "The facade is started. We must:\n-fill in the rigid body component\n-\"divert\" the force and torque generators to havok",
+      "PostedDate": "2012-02-21T14:06:44.983-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Resolved with changeset 14530.",
+      "PostedDate": "2012-04-08T07:47:29.81-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-01T18:59:02.823-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-13T11:25:20.727-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

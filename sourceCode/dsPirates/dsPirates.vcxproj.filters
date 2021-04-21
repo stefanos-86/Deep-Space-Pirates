@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="dsSound.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="FMODfacade.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigurationStore.cpp">
+      <Filter>Core\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleOutput.cpp">
+      <Filter>Core\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectComponent.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="gocLogicBase.cpp">
+      <Filter>Logic\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="gocVisualModel.cpp">
+      <Filter>Rendering\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="goFactory.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="goManager.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMapper.cpp">
+      <Filter>Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Core\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="NoOpCommand.cpp">
+      <Filter>Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SanityCheck.cpp">
+      <Filter>Core\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemCommands.cpp">
+      <Filter>Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="dsMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="HavokFacade.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="OgreFacade.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoop.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemClock.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="gocVisualCamera.cpp">
+      <Filter>Rendering\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Cameraman.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualDebuggerConnector.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="gocPhysicsRigidBody.cpp">
+      <Filter>Physics\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceDebrisLogic.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCollisionGeometry.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicCollisionGeometry.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipSound.cpp">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceShipControls.cpp">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceShip.cpp">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceShipThrusters.cpp">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClCompile>
+    <ClCompile Include="Cockpit.cpp">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClCompile>
+    <ClCompile Include="Radar.cpp">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedRadarTarget.cpp">
+      <Filter>GameItems\sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="SensorBus.cpp">
+      <Filter>GameItems\sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponSystem.cpp">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceDebrisCreator.cpp">
+      <Filter>GameItems\creators</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceshipCreator.cpp">
+      <Filter>GameItems\creators</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>GameItems</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletCreator.cpp">
+      <Filter>GameItems\creators</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPostCollisionremover.cpp">
+      <Filter>GameItems\creators</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatorsUtilities.cpp">
+      <Filter>GameItems\creators</Filter>
+    </ClCompile>
+    <ClCompile Include="PostCollisionDismantler.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="gocCollidableLogic.cpp">
+      <Filter>Logic\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="DebrisPostCollisionRemover.cpp">
+      <Filter>GameItems\creators</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectsLibrary.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="IDGenerator.cpp">
+      <Filter>Core\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CockpitScreenElements.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionProviderPlugin.cpp">
+      <Filter>Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightControlSystem.cpp">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="dsSound.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionName.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionProviderPlugin.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigurationStore.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleOutput.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EasySingleton.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectComponent.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="gocPhysics.h">
+      <Filter>Physics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="gocLogic.h">
+      <Filter>Logic\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="gocLogicBase.h">
+      <Filter>Logic\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="gocVisual.h">
+      <Filter>Rendering\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="gocVisualModel.h">
+      <Filter>Rendering\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="goManager.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="goFactory.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMapper.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NoOpCommand.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceGenerator.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SanityCheck.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemCommands.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TorqueGenerator.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="dsMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="HavokFacade.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="FMODfacade.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="OgreFacade.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLoop.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemClock.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TimedElement.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="gocVisualCamera.h">
+      <Filter>Rendering\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Cameraman.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualDebuggerConnector.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="gocPhysicsRigidBody.h">
+      <Filter>Physics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceDebrisLogic.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollisionGeometry.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCollisionGeometry.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicCollisionGeometry.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="gocAudio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipSound.h">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceShipControls.h">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceShip.h">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceShipStatus.h">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceShipThrusters.h">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClInclude>
+    <ClInclude Include="Cockpit.h">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar.h">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedRadarTarget.h">
+      <Filter>GameItems\sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="RadarVisibleInterface.h">
+      <Filter>GameItems\sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorBus.h">
+      <Filter>GameItems\sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponSystem.h">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceshipCreator.h">
+      <Filter>GameItems\creators</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceDebrisCreator.h">
+      <Filter>GameItems\creators</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletCreator.h">
+      <Filter>GameItems\creators</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>GameItems</Filter>
+    </ClInclude>
+    <ClInclude Include="GameItemRemover.h">
+      <Filter>GameItems\creators</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPostCollisionremover.h">
+      <Filter>GameItems\creators</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatorsUtilities.h">
+      <Filter>GameItems\creators</Filter>
+    </ClInclude>
+    <ClInclude Include="PostCollisionDismantler.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="gocCollidableLogic.h">
+      <Filter>Logic\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DebrisPostCollisionRemover.h">
+      <Filter>GameItems\creators</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectsLibrary.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="IDGenerator.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="glog_include.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CockpitScreenElements.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="FlightControlSystem.h">
+      <Filter>GameItems\PlayerSpaceShip</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{a8877cab-17cb-4d9c-84c5-106b22cb33e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{970b0962-5fb4-43c4-b4ca-c2ac7743c89a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{a6a4111c-319b-4b0c-b347-3572bf227cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{093d8f21-07bd-4136-92c3-b204e9109aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{4d2cd46d-33d7-49d5-b4d8-48997adf90f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Input">
+      <UniqueIdentifier>{55e6afbb-c954-4136-8d4d-4675b805d09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Utils">
+      <UniqueIdentifier>{fdecfba5-20a2-4f9e-878b-e7ffd4234fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Components">
+      <UniqueIdentifier>{1f2320db-5857-4105-b4cf-1633a51262cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Components">
+      <UniqueIdentifier>{c904d348-008f-47ef-9d19-9b3056b8d30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{7ae0e2ea-ff09-4d1c-8c88-7fd78ce2b3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Components">
+      <UniqueIdentifier>{fea58325-6d53-4a3c-aeb4-cbcac9583fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Components">
+      <UniqueIdentifier>{9f63409c-ee79-4606-8a49-713060205c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameItems">
+      <UniqueIdentifier>{843e5ff0-e856-452d-b25a-384cb1adb7b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameItems\PlayerSpaceShip">
+      <UniqueIdentifier>{be6bef7c-18c7-45a5-ae24-dc31a1b24493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameItems\sensors">
+      <UniqueIdentifier>{c6b1c227-0540-4f64-8a46-d10472a8b4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameItems\creators">
+      <UniqueIdentifier>{aa5be040-7fa8-43a9-8f81-38227c0132a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
